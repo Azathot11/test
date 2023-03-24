@@ -7,7 +7,7 @@ import image16 from "../assets/16.svg";
 const SectionFour = () => {
   return (
     <div
-      className={`w-full min-h-full py-20 ${generalPadding} flex flex-col gap-3`}
+      className={`w-full min-h-full pt-20 pb-60 ${generalPadding} flex flex-col gap-3`}
     >
       <h1 className="font-bold text-lg text-center capitalize">
         Choose Your Favorite Color

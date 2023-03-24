@@ -22,7 +22,7 @@ const GalleryOne = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col justify-end"
+        <div className="w-full flex flex-col justify-end h-72 sm:h-full"
          style={{
             backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(${image4})`,
             backgroundRepeat: "no-repeat",
@@ -31,7 +31,7 @@ const GalleryOne = () => {
             backgroundSize: "cover",
           }}
         >
-         <div className="bg-white w-36 p-1  ml-4 mb-10 flex justify-center font-semibold">CATAGORY NAME</div>
+          <div className="bg-white w-36 p-1  ml-4 mb-10 flex justify-center font-semibold ">CATAGORY NAME</div>
         </div>
       </div>
     </div>
