@@ -7,6 +7,7 @@ import {foorterElements} from '../utils/data'
 
 const Footer = () => {
   return (
+    <div className="w-full h-full">
     <div
       className={`w-full ${generalPadding} py-20 sm:py-40 grid grid-cols-1 sm:grid-cols-2 bg-[#F2F8FC] gap-y-10 gap-x-5`}
     >
@@ -55,6 +56,10 @@ const Footer = () => {
             )) }
         </div>
       </div>
+    </div>
+    <div className="w-full h-12 flex justify-center items-center text-xs bg-[#E7F5F8] rounded-b-2xl">
+    Copyright © 2020 . Your company name  All rights reserved
+    </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Navbar = () => {
   // const [resModal,setResModal] = useState(false);
   return (
     <div
-      className={`fixed w-full flex justify-between gap-5 items-center h-16 bg-white ${generalPadding} `}
+      className={`fixed w-full flex justify-between gap-5 items-center h-16 bg-white ${generalPadding} rounded-t-2xl `}
     >
       <img src={logo} alt="logo" className="w-32" />
       <ul className="hidden md:flex  gap-5 items-center justify-center">
